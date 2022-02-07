@@ -6,4 +6,6 @@ Video conferencing application like Zoom
 * pug
 * MVP CSS
 ## Back-end
-Node.js with TypeScript
+* Node.js with TypeScript (Use ts-node while develop)
+* Nodemon
+* Use babel after build
