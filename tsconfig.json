@@ -16,7 +16,7 @@
         "outDir": "dist",
         "removeComments": true,
         "sourceMap": false,
-        "allowJs": true
+        "allowJs": false
     },
     "include": ["src/**/*"]
 }

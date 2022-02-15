@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "del-cli dist",
-    "prebuild": "copyfiles -u 1 src/public/* src/views/* dist",
+    "prebuild": "copyfiles -u 1 src/public/**/* src/views/* dist",
     "build": "npm run clean && npm run prebuild && tsc",
     "dev": "nodemon src/server.ts",
     "start": "babel-node dist/server.js"
