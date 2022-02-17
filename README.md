@@ -9,3 +9,8 @@ Video conferencing application like Zoom
 * Node.js with TypeScript (Use ts-node while develop)
 * Nodemon
 * Use babel after build
+* SocketIO for communication
+
+# Features
+## WebSockets
+`ws` 패키지 사용
